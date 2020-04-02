@@ -19,6 +19,12 @@ class Hospital extends BaseController
         echo view('templates/header');
         return view('pages/doctors');
     }
+
+    public function appointments()
+    {
+        echo view('templates/header');
+        return view('pages/appointment');
+    }
 	//--------------------------------------------------------------------
 
 }
